@@ -1,0 +1,118 @@
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: lightblue;
+}
+
+#Description {
+  text-align: center;
+}
+#Sessions{
+  position: fixed;
+  font-size: 40px;
+  right: 2%;
+  top: 5%;
+
+}
+
+#Start {
+  position: fixed;
+  width: 10%;
+  height: 10%;
+  bottom: 1%;
+  right: 0.5%;
+  font-size: 30px;
+}
+
+#Stop {
+  position: fixed;
+  width: 10%;
+  height: 10%;
+  bottom: 1%;
+  right: 13%;
+  font-size: 30px;
+  display: none;
+}
+
+#Delete {
+  position: fixed;
+  width: 10%;
+  height: 10%;
+  bottom: 1%;
+  left: 0.5%;
+  font-size: 30px;
+}
+
+#Reset {
+  position: fixed;
+  width: 10%;
+  height: 10%;
+  bottom: 1%;
+  left: 13%;
+  font-size: 30px;
+}
+
+#post {
+  width: 11%;
+  height: 10%;
+  bottom: 1%;
+  font-size: 30px;
+}
+#List {
+  font-size: 25px;
+  margin-left: 43%;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+.Post {
+  position: fixed;
+  width: 44%;
+  border-style: solid;
+  border-radius: 2%;
+  bottom: 8%;
+  left: 28%;
+  padding: 0.7%;
+  font-size: 30px;
+}
+
+#InputTasks {
+  width: 72%;
+  margin-left: 1%;
+  margin-right: 3%;
+  font-size: 30px;
+}
+
+input.Checkbox {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 35%;
+  margin-top: 0.35%;
+}
+
+button {
+  background-color: aquamarine;
+  border-radius: 12px;
+}
+
+#Timer {
+  position: fixed;
+  font-size: 850%;
+  top: -5%;
+  left: 5%;
+}
